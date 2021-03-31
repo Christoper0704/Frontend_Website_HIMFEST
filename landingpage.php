@@ -113,8 +113,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		  <div class="container-fluid bg-dark text-white">
 		<div class="row">
 		<div class="col-md-4 pt-5 d-flex flex-column justify-content-center">
-			<h1>THEME</h1>
-			<p>Improving Society with Code</p>
+			<h1>TYPE & CATEGORY</h1>
+			<p>SMA/SMK: UI/UX</p>
+			<p>Mahasiswa: Web/Mobile App</p>
 		</div>
 		<div class="col-md-8">
 		  <img src="<?= base_url()?>/images/draft.png" alt="home section" width="700" height="500">
@@ -126,8 +127,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		  <<div class="container-fluid bg-dark text-white">
 		<div class="row">
 		<div class="col-md-4 pt-5 d-flex flex-column justify-content-center">
-			<h1>THEME</h1>
-			<p>Improving Society with Code</p>
+			<h1>SEMINAR</h1>
+			<p>Theme: Improving Society with Code</p>
+			<p>Date: 21 Juni 2021</p>
+			<p>Speaker</p>
 		</div>
 		<div class="col-md-8">
 		  <img src="<?= base_url()?>/images/draft.png" alt="home section" width="700" height="500">
@@ -139,8 +142,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		  <div class="container-fluid bg-dark text-white">
 		<div class="row">
 		<div class="col-md-4 pt-5 d-flex flex-column justify-content-center">
-			<h1>THEME</h1>
-			<p>Improving Society with Code</p>
+			<h1>WORKSHOP</h1>
+			<p>SMA/SMK: 22-23 Juni 2021</p>
+			<p>Speaker: </p>
+			<p>Mahasiswa: 24-25 Juni 2021</p>
+			<p>Speaker</p>
 		</div>
 		<div class="col-md-8">
 		  <img src="<?= base_url()?>/images/draft.png" alt="home section" width="700" height="500">
