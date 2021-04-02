@@ -26,21 +26,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     left: -110px;
     border-bottom: 0;
     font-size: 40px;
-    color: #444;
+    color: #c593d8;
 }
  
 .top-content .carousel-control-next {
     right: -110px;
     border-bottom: 0;
     font-size: 40px;
-    color: #444;
+    color: #c593d8;
 }
 .top-content .carousel-indicators li {
     width: 16px;
     height: 16px;
     margin-left: 5px;
     margin-right: 5px;
-    background-color: #000000;
+    background-color: #c593d8;
     border-radius: 50%;
 }
 
@@ -115,7 +115,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<div class="row">
 					<div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
 					<h1 class="text-center">ABOUT HIMFEST</h1>
-					<div id="mycarousel" class="carousel slide" data-ride="carousel">
+					<div id="mycarousel" class="carousel slide" data-interval="5000" data-ride="carousel">
 					
 					<ol class="carousel-indicators">
 						<li data-target="#mycarousel" data-slide-to="0" class="active"></li>
@@ -129,7 +129,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<div class="container-fluid bg-light text-black">
 					<div class="row">
 					<div class="col-md-6 pt-5 d-flex flex-column justify-content-center">
-						<h1>THEME</h1>
+						<div class="p-3 mb-2 bg-secondary text-white"><h1>THEME</h1></div>
 						<p>Improving Society with Code</p>
 					</div>
 					<div class="col-md-6">
@@ -142,8 +142,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					  <div class="container-fluid bg-light text-black">
 					<div class="row">
 					<div class="col-md-6 pt-5 d-flex flex-column justify-content-center">
-						<h1>TYPE &</h1>
-						<h1>CATEGORY</h1>
+						<div class="p-3 mb-2 bg-secondary text-white"><h1>TYPE & CATEGORY</h1></div>
 						<p>SMA/SMK: UI/UX</p>
 						<p>Mahasiswa: Web/Mobile App</p>
 					</div>
@@ -157,10 +156,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					  <<div class="container-fluid bg-light text-black">
 					<div class="row">
 					<div class="col-md-6 pt-5 d-flex flex-column justify-content-center">
-						<h1>SEMINAR</h1>
+						<div class="p-3 mb-2 bg-secondary text-white"><h1>SEMINAR</h1></div>
 						<p>Theme: Improving Society with Code</p>
 						<p>Date: 21 Juni 2021</p>
-						<p>Speaker</p>
+						<p>Speaker: </p>
 					</div>
 					<div class="col-md-6">
 					  <img src="<?= base_url()?>/images/draft.png" alt="home section" width="700" height="500">
@@ -172,11 +171,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					  <div class="container-fluid bg-light text-black">
 					<div class="row">
 					<div class="col-md-6 pt-5 d-flex flex-column justify-content-center">
-						<h1>WORKSHOP</h1>
+						<div class="p-3 mb-2 bg-secondary text-white"><h1>WORKSHOP</h1></div>
 						<p>SMA/SMK: 22-23 Juni 2021</p>
 						<p>Speaker: </p>
 						<p>Mahasiswa: 24-25 Juni 2021</p>
-						<p>Speaker</p>
+						<p>Speaker: </p>
 					</div>
 					<div class="col-md-6">
 					  <img src="<?= base_url()?>/images/draft.png" alt="home section" width="700" height="500">
@@ -187,11 +186,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				  </div>
 				  
 			  <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
-				<i class="fas fa-arrow-left" aria-hidden="true"></i>
+				<i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
 				<span class="sr-only">Previous</span>
 			  </a>
 			  <a class="carousel-control-next" href="#mycarousel" data-slide="next">
-				<i class="fas fa-arrow-right" aria-hidden="true"></i>
+				<i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
 				<span class="sr-only">Next</span>
 			  </a>
 			</div>
