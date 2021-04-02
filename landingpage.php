@@ -20,6 +20,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<link rel="stylesheet" type="text/css" href="<?= base_url()?>css/index.css">
 	<!-- fontawesome icon -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<style>
+/*carousel*/
+.top-content .carousel-control-prev {
+    left: -110px;
+    border-bottom: 0;
+    font-size: 40px;
+    color: #444;
+}
+ 
+.top-content .carousel-control-next {
+    right: -110px;
+    border-bottom: 0;
+    font-size: 40px;
+    color: #444;
+}
+.top-content .carousel-indicators li {
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #000000;
+    border-radius: 50%;
+}
+
+</style>
 </head>
 
 <body>
@@ -101,7 +126,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			  
 				  <div class="carousel-inner">
 					<div class="carousel-item active">
-					<div class="container-fluid bg-dark text-white">
+					<div class="container-fluid bg-light text-black">
 					<div class="row">
 					<div class="col-md-6 pt-5 d-flex flex-column justify-content-center">
 						<h1>THEME</h1>
@@ -114,7 +139,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					 </div>
 					</div>
 					<div class="carousel-item">
-					  <div class="container-fluid bg-dark text-white">
+					  <div class="container-fluid bg-light text-black">
 					<div class="row">
 					<div class="col-md-6 pt-5 d-flex flex-column justify-content-center">
 						<h1>TYPE &</h1>
@@ -129,7 +154,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					 </div>
 					</div>
 					<div class="carousel-item">
-					  <<div class="container-fluid bg-dark text-white">
+					  <<div class="container-fluid bg-light text-black">
 					<div class="row">
 					<div class="col-md-6 pt-5 d-flex flex-column justify-content-center">
 						<h1>SEMINAR</h1>
@@ -144,7 +169,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					 </div>
 					</div>
 					<div class="carousel-item">
-					  <div class="container-fluid bg-dark text-white">
+					  <div class="container-fluid bg-light text-black">
 					<div class="row">
 					<div class="col-md-6 pt-5 d-flex flex-column justify-content-center">
 						<h1>WORKSHOP</h1>
@@ -208,7 +233,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							</div>
 						</div>
 
-						<p class="mt-2">Terdapat hadiah tambahan bagi juara 1 - 3, yaitu beasiswa 100% untuk biaya DP3 di Binus University Malang*. Sedangkan untuk runner up (juara 4 & 5) akan masing-masing mendapatkan hadiah sebesar 100 ribu rupiah.</p>
+						<p class="mt-2">Terdapat hadiah tambahan bagi juara 1 - 3, yaitu beasiswa 100% untuk biaya DP3 di Binus University @Malang*.</p>
 
 						<p class="sk mt-5">*) Syarat dan ketentuan berlaku</p>
 						
@@ -256,8 +281,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<ul class="timeline timeline-horizontal">
 							<li class="timeline-item col">
 								<div class="timeline-date">
-									<p>21 JUNI 2021</p>
-									<p>Seminar</p>
+									<p>21 JUNI 2021: Seminar</p>
+									<p>22-25 JUNI 2021: Workshop</p>
+								</div>
+								<div class="timeline-badge primary">
+								</div>
+								<div class="timeline-name">
+								</div>
+							</li>
+							
+							<li class="timeline-item col">
+								<div class="timeline-date">
+									<p>1-8 JULI 2021</p>
+									<p>Pengumpulan karya</p>
 								</div>
 								<div class="timeline-badge primary">
 								</div>
@@ -266,18 +302,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							</li>
 							<li class="timeline-item col">
 								<div class="timeline-date">
-									<p>18 JULI</p>
-									<p>Batas pengumpulan karya</p>
-								</div>
-								<div class="timeline-badge primary">
-								</div>
-								<div class="timeline-name">
-								</div>
-							</li>
-							<li class="timeline-item col">
-								<div class="timeline-date">
-									<p>21 JULI</p>
-									<p style="font-size: 20px; font-weight: bold;">Presentasi dan Pengumuman Juara</p>
+									<p style="font-size: 20px; font-weight: bold;">15 JULI 2021: Presentasi Finalis</p>
+									<p style="font-size: 20px; font-weight: bold;">16 JULI 2021: Pengumuman Juara</p>
 								</div>
 								<div class="timeline-badge primary">
 								</div>
@@ -306,15 +332,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<div class="tab-pane fade show active" id="nav-ui/ux" role="tabpanel"
 								aria-labelledby="nav-ui/ux-tab">
 								<ol type="number">
-									<li>Peserta wajib merupakan siswa aktif SMA IPA/MA IPA, SMK jurusan IT/RPL/TKL sederajat.
+									<li>Peserta wajib merupakan siswa aktif SMA IPA/MA IPA, SMK jurusan IT/RPL/TKL sederajat dan mahasiswa aktif jurusan IT.
 									</li>
-									<li>Peserta harus mendaftar sesuai yang ada pada kartu identitas
-									</li>
-									<li>
-										Peserta menyetujui apabila sewaktu-waktu di hubungi oleh panitia HIMFEST 2020
+									<li>Peserta harus mendaftar sesuai yang ada pada kartu pelajar.
 									</li>
 									<li>
-										Pengumpulan karya dapat dimulai dari tanggal 13 Juli 2020 pukul 10.00 WIB - 18 Juli 2020 pukul 23.59 WIB. Peserta harus mengumpulkan pada waktu yang telah ditentukan, jika terlambat maka karya yang dikumpulkan tidak dapat dinilai.
+										Peserta menyetujui apabila sewaktu-waktu di hubungi oleh panitia HIMFEST 2021.
+									</li>
+									<li>
+										Pengumpulan karya dapat dimulai dari tanggal 1 Juli 2021 pukul 10.00 WIB - 8 Juli 2021 pukul 23.59 WIB. Peserta harus mengumpulkan pada waktu yang telah ditentukan, jika terlambat maka karya yang dikumpulkan tidak dapat dinilai.
 									</li>
 								</ol>
 							</div>
