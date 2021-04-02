@@ -39,13 +39,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<a class="nav-link" href="#about">About</a>
 						</li>
 						<li class="nav-item mr-1 ml-1">
-							<a class="nav-link" href="#timeline">Prize</a>
+							<a class="nav-link" href="#prize">Prize</a>
 						</li>
 						<li class="nav-item mr-1 ml-1">
-							<a class="nav-link" href="#guidelines">Timeline</a>
+							<a class="nav-link" href="#timeline">Timeline</a>
 						</li>
 						<li class="nav-item mr-1 ml-1">
-							<a class="nav-link" href="#prize">Guidelines</a>
+							<a class="nav-link" href="#guidelines">Guidelines</a>
 						</li>
 					</ul>
 					<div class="form-inline my-2 my-lg-0">
@@ -85,86 +85,169 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</section>
 
 		<section id="about">
-		
-		<div id="mycarousel" class="carousel slide" data-ride="carousel">
-		<h1 class="text-center">ABOUT HIMFEST</h1>
-		<ol class="carousel-indicators">
-			<li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-			<li data-target="#mycarousel" data-slide-to="1"></li>
-			<li data-target="#mycarousel" data-slide-to="2"></li>
-			<li data-target="#mycarousel" data-slide-to="3"></li>
-		 </ol>
-  
-	  <div class="carousel-inner" role="listbox">
-		<div class="carousel-item active">
-		<div class="container-fluid bg-dark text-white">
-		<div class="row">
-		<div class="col-md-4 pt-5 d-flex flex-column justify-content-center">
-			<h1>THEME</h1>
-			<p>Improving Society with Code</p>
+				<div class="top-content">
+					<div class="container">
+					<div class="row">
+					<div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+					<h1 class="text-center">ABOUT HIMFEST</h1>
+					<div id="mycarousel" class="carousel slide" data-ride="carousel">
+					
+					<ol class="carousel-indicators">
+						<li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#mycarousel" data-slide-to="1"></li>
+						<li data-target="#mycarousel" data-slide-to="2"></li>
+						<li data-target="#mycarousel" data-slide-to="3"></li>
+					 </ol>
+			  
+				  <div class="carousel-inner">
+					<div class="carousel-item active">
+					<div class="container-fluid bg-dark text-white">
+					<div class="row">
+					<div class="col-md-6 pt-5 d-flex flex-column justify-content-center">
+						<h1>THEME</h1>
+						<p>Improving Society with Code</p>
+					</div>
+					<div class="col-md-6">
+					  <img src="<?= base_url()?>/images/draft.png" alt="home section" width="700" height="500">
+					  </div>
+					  </div>
+					 </div>
+					</div>
+					<div class="carousel-item">
+					  <div class="container-fluid bg-dark text-white">
+					<div class="row">
+					<div class="col-md-6 pt-5 d-flex flex-column justify-content-center">
+						<h1>TYPE &</h1>
+						<h1>CATEGORY</h1>
+						<p>SMA/SMK: UI/UX</p>
+						<p>Mahasiswa: Web/Mobile App</p>
+					</div>
+					<div class="col-md-6">
+					  <img src="<?= base_url()?>/images/draft.png" alt="home section" width="700" height="500">
+					  </div>
+					  </div>
+					 </div>
+					</div>
+					<div class="carousel-item">
+					  <<div class="container-fluid bg-dark text-white">
+					<div class="row">
+					<div class="col-md-6 pt-5 d-flex flex-column justify-content-center">
+						<h1>SEMINAR</h1>
+						<p>Theme: Improving Society with Code</p>
+						<p>Date: 21 Juni 2021</p>
+						<p>Speaker</p>
+					</div>
+					<div class="col-md-6">
+					  <img src="<?= base_url()?>/images/draft.png" alt="home section" width="700" height="500">
+					  </div>
+					  </div>
+					 </div>
+					</div>
+					<div class="carousel-item">
+					  <div class="container-fluid bg-dark text-white">
+					<div class="row">
+					<div class="col-md-6 pt-5 d-flex flex-column justify-content-center">
+						<h1>WORKSHOP</h1>
+						<p>SMA/SMK: 22-23 Juni 2021</p>
+						<p>Speaker: </p>
+						<p>Mahasiswa: 24-25 Juni 2021</p>
+						<p>Speaker</p>
+					</div>
+					<div class="col-md-6">
+					  <img src="<?= base_url()?>/images/draft.png" alt="home section" width="700" height="500">
+					  </div>
+					  </div>
+					 </div>
+					</div>
+				  </div>
+				  
+			  <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+				<i class="fas fa-arrow-left" aria-hidden="true"></i>
+				<span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#mycarousel" data-slide="next">
+				<i class="fas fa-arrow-right" aria-hidden="true"></i>
+				<span class="sr-only">Next</span>
+			  </a>
+			</div>
+			</div>
+			</div>
 		</div>
-		<div class="col-md-8">
-		  <img src="<?= base_url()?>/images/draft.png" alt="home section" width="700" height="500">
-		  </div>
-		  </div>
-		 </div>
-		</div>
-		<div class="carousel-item">
-		  <div class="container-fluid bg-dark text-white">
-		<div class="row">
-		<div class="col-md-4 pt-5 d-flex flex-column justify-content-center">
-			<h1>TYPE & CATEGORY</h1>
-			<p>SMA/SMK: UI/UX</p>
-			<p>Mahasiswa: Web/Mobile App</p>
-		</div>
-		<div class="col-md-8">
-		  <img src="<?= base_url()?>/images/draft.png" alt="home section" width="700" height="500">
-		  </div>
-		  </div>
-		 </div>
-		</div>
-		<div class="carousel-item">
-		  <<div class="container-fluid bg-dark text-white">
-		<div class="row">
-		<div class="col-md-4 pt-5 d-flex flex-column justify-content-center">
-			<h1>SEMINAR</h1>
-			<p>Theme: Improving Society with Code</p>
-			<p>Date: 21 Juni 2021</p>
-			<p>Speaker</p>
-		</div>
-		<div class="col-md-8">
-		  <img src="<?= base_url()?>/images/draft.png" alt="home section" width="700" height="500">
-		  </div>
-		  </div>
-		 </div>
-		</div>
-		<div class="carousel-item">
-		  <div class="container-fluid bg-dark text-white">
-		<div class="row">
-		<div class="col-md-4 pt-5 d-flex flex-column justify-content-center">
-			<h1>WORKSHOP</h1>
-			<p>SMA/SMK: 22-23 Juni 2021</p>
-			<p>Speaker: </p>
-			<p>Mahasiswa: 24-25 Juni 2021</p>
-			<p>Speaker</p>
-		</div>
-		<div class="col-md-8">
-		  <img src="<?= base_url()?>/images/draft.png" alt="home section" width="700" height="500">
-		  </div>
-		  </div>
-		 </div>
-		</div>
-	  </div>
-	  
-  <a class="carousel-control-prev" href="#demo" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
-</div>
 		</section>
+		
+		<section id="prize" class="d-block">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 pt-5 text-center offset-md-1">
+						<h1 class="mb-5 mt-3">Prize</h1>
+						<h3 class="mb-5 mt-3">SMA/SMK</h3>
+						<div class="row">
+							<div class="col-md-4 mt-3 mt-sm-5">
+								<div class="prize-card">
+									<img src="<?= base_url()?>/images/second.png" class="medal w-25">
+									<span class="text">
+										Rp 300 ribu
+									</span>
+								</div>
+							</div>
+							<div class="col-md-4 mt-3 mt-sm-0 mb-sm-5">
+								<div class="prize-card prize-active">
+									<img src="<?= base_url()?>/images/first.png" class="medal w-25">
+									<span class="text">
+										Rp 400 ribu
+									</span>
+								</div>
+							</div>
+							<div class="col-md-4 mt-3 mt-sm-5">
+								<div class="prize-card">
+									<img src="<?= base_url()?>/images/third.png" class="medal w-25">
+									<span class="text">
+										Rp 150 ribu
+									</span>
+								</div>
+							</div>
+						</div>
 
+						<p class="mt-2">Terdapat hadiah tambahan bagi juara 1 - 3, yaitu beasiswa 100% untuk biaya DP3 di Binus University Malang*. Sedangkan untuk runner up (juara 4 & 5) akan masing-masing mendapatkan hadiah sebesar 100 ribu rupiah.</p>
+
+						<p class="sk mt-5">*) Syarat dan ketentuan berlaku</p>
+						
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-10 pt-5 text-center offset-md-1">
+						<h3 class="mb-5 mt-3">Mahasiswa</h3>
+						<div class="row">
+							<div class="col-md-4 mt-3 mt-sm-5">
+								<div class="prize-card">
+									<img src="<?= base_url()?>/images/second.png" class="medal w-25">
+									<span class="text">
+										Rp 500 ribu
+									</span>
+								</div>
+							</div>
+							<div class="col-md-4 mt-3 mt-sm-0 mb-sm-5">
+								<div class="prize-card prize-active">
+									<img src="<?= base_url()?>/images/first.png" class="medal w-25">
+									<span class="text">
+										Rp 750 ribu
+									</span>
+								</div>
+							</div>
+							<div class="col-md-4 mt-3 mt-sm-5">
+								<div class="prize-card">
+									<img src="<?= base_url()?>/images/third.png" class="medal w-25">
+									<span class="text">
+										Rp 250 ribu
+									</span>
+								</div>
+							</div>
+						</div>						
+					</div>
+				</div>
+			</div>
+		</section>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		<section id="timeline">
 			<div class="container">
 				<div class="row">
@@ -173,8 +256,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<ul class="timeline timeline-horizontal">
 							<li class="timeline-item col">
 								<div class="timeline-date">
-									<p>13 JULI - 14 JULI</p>
-									<p>Workshop UI dan UX</p>
+									<p>21 JUNI 2021</p>
+									<p>Seminar</p>
 								</div>
 								<div class="timeline-badge primary">
 								</div>
@@ -186,7 +269,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<p>18 JULI</p>
 									<p>Batas pengumpulan karya</p>
 								</div>
-								<div class="timeline-badge success">
+								<div class="timeline-badge primary">
 								</div>
 								<div class="timeline-name">
 								</div>
@@ -196,7 +279,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<p>21 JULI</p>
 									<p style="font-size: 20px; font-weight: bold;">Presentasi dan Pengumuman Juara</p>
 								</div>
-								<div class="timeline-badge info">
+								<div class="timeline-badge primary">
 								</div>
 								<div class="timeline-name">
 								</div>
@@ -206,7 +289,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 			</div>
 		</section>
-
+		
 		<section id="guidelines">
 			<div class="container">
 				<div class="row">
@@ -246,46 +329,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								</div>
 							</button>
 						</a>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section id="prize" class="d-block">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-10 pt-5 text-center offset-md-1">
-						<h1 class="mb-5 mt-3">Prize</h1>
-						<div class="row">
-							<div class="col-md-4 mt-3 mt-sm-5">
-								<div class="prize-card">
-									<img src="<?= base_url()?>/images/second.png" class="medal w-25">
-									<span class="text">
-										Rp 500 ribu
-									</span>
-								</div>
-							</div>
-							<div class="col-md-4 mt-3 mt-sm-0 mb-sm-5">
-								<div class="prize-card prize-active">
-									<img src="<?= base_url()?>/images/first.png" class="medal w-25">
-									<span class="text">
-										Rp 700 ribu
-									</span>
-								</div>
-							</div>
-							<div class="col-md-4 mt-3 mt-sm-5">
-								<div class="prize-card">
-									<img src="<?= base_url()?>/images/third.png" class="medal w-25">
-									<span class="text">
-										Rp 300 ribu
-									</span>
-								</div>
-							</div>
-						</div>
-
-						<p class="mt-2">Terdapat hadiah tambahan bagi juara 1 - 3, yaitu beasiswa 100% untuk biaya DP3 di Binus University Malang*. Sedangkan untuk runner up (juara 4 & 5) akan masing-masing mendapatkan hadiah sebesar 100 ribu rupiah.</p>
-
-						<p class="sk mt-5">*) Syarat dan ketentuan berlaku</p>
 					</div>
 				</div>
 			</div>
